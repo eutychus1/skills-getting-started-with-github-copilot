@@ -79,6 +79,56 @@ section h3 {
 }
 
 .form-group label {
+/* Activity Card Styling */
+.activity-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(26, 35, 126, 0.10);
+  padding: 24px 20px 20px 20px;
+  margin-bottom: 24px;
+  min-width: 280px;
+  max-width: 420px;
+  flex: 1 1 320px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  border-left: 6px solid #3949ab;
+  position: relative;
+}
+.activity-card:hover {
+  box-shadow: 0 6px 24px rgba(26, 35, 126, 0.18);
+  transform: translateY(-2px) scale(1.01);
+}
+
+/* Participants Section Styling */
+.participants-section {
+  margin-top: 18px;
+  background: #f0f3fa;
+  border-radius: 8px;
+  padding: 12px 14px 10px 18px;
+  box-shadow: 0 1px 4px rgba(26, 35, 126, 0.04);
+}
+.participants-section strong {
+  color: #3949ab;
+  font-size: 1.05em;
+  letter-spacing: 0.5px;
+}
+.participants-list {
+  margin: 8px 0 0 0;
+  padding-left: 18px;
+  list-style-type: disc;
+  color: #263238;
+  font-size: 0.98em;
+}
+.participants-list li {
+  margin-bottom: 2px;
+  padding-left: 2px;
+  word-break: break-all;
+}
+.no-participants {
+  color: #757575;
+  font-style: italic;
+  margin: 8px 0 0 0;
+  font-size: 0.97em;
+}
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
